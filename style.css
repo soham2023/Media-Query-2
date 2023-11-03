@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+    overflow: auto;
+}
+header{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+img{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.hambarger{
+    display: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+li a:active{
+    background-color: blue;
+    border: blue;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 900;
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h3{
+    display: inline;
+    font-size: 24px;
+}
+img[alt="Hii.."]{
+    height: 21px;
+}
+h2{
+    color: rgb(197, 197, 89);
+    font-size: 25px;
+}
+.name{
+    font-size: 40px;
+}
+img[alt="PC"]{
+    height: 290px;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allProject{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.first{
+    display: flex;
+    gap: 20px;
+}
+.second{
+    display: flex;
+    gap: 20px;
+}
+p{
+    text-align: center;
+}
+.heading{
+    font-size: 25px;
+    text-decoration:blue underline;
+    margin-top: 10px;
+}
+img[alt="Project"]{
+    height:150px ;
+}
+.first div p{
+    font-size: 10px;
+}
+.second div p{
+    font-size: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+footer h1{
+    font-size: 25px;
+    text-decoration:blue underline;
+    margin-top: 10px;
+}
+footer img{
+    height: 20px;
+    margin: 2px;
+}
+@media screen and (max-width: 590px){
+    header{
+        justify-content: start;
+        margin-left: 10px;
+    }
+    .hambarger{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .upper{
+        flex-direction: column;
+    }
+    h3{
+        display: block;
+    }
+    .left{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    img[alt="Hii.."]{
+        height: 30px;
+    }
+    img[alt="PC"]{
+        height: 40vh;
+    }
+    .first{
+        flex-direction: column;
+    }
+    .second{
+        flex-direction: column;
+    }
+}
